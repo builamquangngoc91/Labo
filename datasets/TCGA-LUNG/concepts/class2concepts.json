@@ -1,0 +1,27 @@
+{
+    "LUAD": [
+        "lepidic growth along alveolar septa",
+        "acinar or glandular formation",
+        "mucin production",
+        "papillary or micropapillary architecture",
+        "hobnail tumor cells",
+        "vacuolated cytoplasm",
+        "delicate desmoplastic stroma",
+        "solid nests with mucin",
+        "irregular nuclear membranes",
+        "tumor invasion into alveolar spaces"
+    ],
+    "LUSC": [
+        "keratinization",
+        "intercellular bridges",
+        "squamous pearls",
+        "polygonal cells with eosinophilic cytoplasm",
+        "dyskeratosis",
+        "basaloid pattern",
+        "coarse chromatin",
+        "necrosis with ghost cells",
+        "prominent nucleoli",
+        "keratin debris in tumor nests"
+    ]
+}
+

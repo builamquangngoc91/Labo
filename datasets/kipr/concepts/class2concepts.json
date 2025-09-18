@@ -1,0 +1,17 @@
+{
+    "ClassA": [
+        "dense tumor epithelium",
+        "high nuclear atypia",
+        "mitotic figures"
+    ],
+    "ClassB": [
+        "glandular structures",
+        "moderate atypia",
+        "stromal reaction"
+    ],
+    "ClassC": [
+        "benign epithelium",
+        "inflammation",
+        "necrosis"
+    ]
+}

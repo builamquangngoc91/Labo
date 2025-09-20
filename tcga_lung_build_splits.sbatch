@@ -1,16 +1,10 @@
 #!/bin/bash
-#SBATCH --job-name=tcga_splits
-#SBATCH --output=slurm-%x-%j.out
-#SBATCH --error=slurm-%x-%j.err
-#SBATCH --time=00:30:00
-#SBATCH --ntasks=1
-#SBATCH --cpus-per-task=2
-#SBATCH --mem=8G
-#SBATCH --gres=gpu:0
-#SBATCH --qos=normal
-#SBATCH --hint=nomultithread
-#SBATCH --mail-type=NONE
-##SBATCH --partition=your_partition_here
+#SBATCH --job-name=ec10x_kirp
+#SBATCH --output=tcga_lung_splits.log
+#SBATCH --nodelist=compute-0-2
+#SBATCH --mem=24G
+#SBATCH --cpus-per-task=4
+#SBATCH --time=1-00:00:00
 
 set -euo pipefail
 
